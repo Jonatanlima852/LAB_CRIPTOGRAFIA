@@ -1,4 +1,4 @@
-# PaintApp
+# CRIPTOGRAFIA RSA - LAB CMC14
 
 Bem-vindo ao projeto! Ele consiste na implementação de um código para realizar a codificação e a decodificação de uma mensagem simples utilizando criptografia RSA..
 
