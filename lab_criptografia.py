@@ -35,13 +35,13 @@ ANDRADE."""
     print(f"Mensagem codificada: {msg_codificada}")
 
     # Execução do algoritmo de decodificação de forma errada
-    r, s = escolher_primos(ordem_chaves, primos) # primos utilizados para decodificar de forma errônea
-    d_errado = expoente_privado(r, s, e)
-    chave_privada_errada = {'n':n, 'd':d_errado}
-    print(f"Chave privada errada: {chave_privada_errada}")
+    # r, s = escolher_primos(ordem_chaves, primos) # primos utilizados para decodificar de forma errônea
+    # d_errado = expoente_privado(r, s, e)
+    # chave_privada_errada = {'n':n, 'd':d_errado}
+    # print(f"Chave privada errada: {chave_privada_errada}")
 
-    msg_decodificada_errada = decodificacao(msg_codificada, chave_privada_errada)
-    print(f"Mensagem decodificada com primos errados: {msg_decodificada_errada}")
+    # msg_decodificada_errada = decodificacao(msg_codificada, chave_privada_errada)
+    # print(f"Mensagem decodificada com primos errados: {msg_decodificada_errada}")
 
 
     # Execução do algoritmo de decodificação de forma correta
